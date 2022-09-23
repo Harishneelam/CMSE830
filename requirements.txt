@@ -1,2 +1,5 @@
 streamlit == 1.12.2
 plotly==5.1.0
+seaborn
+pandas
+matplotlib
