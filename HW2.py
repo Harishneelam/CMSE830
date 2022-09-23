@@ -30,7 +30,7 @@ plt.show()
 
 st.write("""
  The Following are the some plots I have tried with plotly and Matplotlib:
- Distplot, 3D-Scatterplot, 3D-Lineplot,Violin plots,Line plots.
+ Distplot, 3D-Scatterplot, 3D-Lineplot,Violin plots,Line plots .
 """)
 st.plotly_chart(fig1, use_container_width=True)
 st.plotly_chart(fig2, use_container_width=True)
