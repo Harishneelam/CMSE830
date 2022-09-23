@@ -26,7 +26,6 @@ ax.set_xlabel('Species')
 ax.set_ylabel('Sepal dimensions')
 ax.set_ylim(bottom=0)
 ax.legend()
-plt.show()
 
 st.write("""
  The Following are the some plots I have tried with plotly and Matplotlib:
@@ -36,4 +35,4 @@ st.plotly_chart(fig1, use_container_width=True)
 st.plotly_chart(fig2, use_container_width=True)
 st.plotly_chart(fig3, use_container_width=True)
 st.plotly_chart(fig4, use_container_width=True)
-st.pyplot(fig5, use_container_width=True)
+st.pyplot(fig5)
